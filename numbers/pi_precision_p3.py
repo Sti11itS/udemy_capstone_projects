@@ -6,6 +6,7 @@ the specified precision.
 
 from math import pi
 
+
 def pi_precision():
     """Returns math.pi to specified precision"""
     while True:
@@ -21,6 +22,7 @@ def pi_precision():
                 break
 
     return round(pi, dec_num)
+
 
 if __name__ == "__main__":
     print(pi_precision())
