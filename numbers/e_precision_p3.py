@@ -9,7 +9,7 @@ function can be imported.
 from math import e
 
 
-def e_precision(n):
+def e_precision(n: int) -> float:
     """Returns math.e to a specified precision 'n'"""
     return round(e, n)
 

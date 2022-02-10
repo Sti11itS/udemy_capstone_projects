@@ -10,7 +10,7 @@ generator can be imported.
 import itertools
 
 
-def genfib(n):
+def genfib(n: int) -> int:
     """Generates the Fibonacci Sequence to position 'n' or index 'n+1'"""
     a = 0
     b = 1

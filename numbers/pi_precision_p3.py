@@ -10,7 +10,7 @@ function can be imported.
 from math import pi
 
 
-def pi_precision(n):
+def pi_precision(n: int) -> float:
     """Returns math.pi to specified precision 'n'"""
     return round(pi, n)
 
